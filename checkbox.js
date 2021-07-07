@@ -6,7 +6,6 @@ console.log(nontop2);
 
 function selectAll()
 {
-    console.log(top2.checked);
     if(top2.checked)
     {
         for(let i=0;i<nontop2.length;i++)
