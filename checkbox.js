@@ -1,9 +1,6 @@
 let top2 = document.getElementById("top");
 let nontop2 = document.getElementsByClassName("nottop");
 
-console.log(top2);
-console.log(nontop2);
-
 function selectAll()
 {
     if(top2.checked)
