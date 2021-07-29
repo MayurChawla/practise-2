@@ -19,7 +19,7 @@
 //     console.log("Between 14 and 90");
 // }
 
-let uername = prompt("Please enter username : ","");
+let username = prompt("Please enter username : ","");
 if(username==="Admin")
 {
     let password = prompt("Enter Password : ","");
@@ -27,7 +27,7 @@ if(username==="Admin")
     {
         console.log("Welcome Master");
     }
-    else if(password===null)
+    else if(password==="" || password===null)
     {
         console.log("Cancelled");
     }
@@ -36,7 +36,7 @@ if(username==="Admin")
         console.log("Wrong Password.");
     }
 }
-else if(username===null)
+else if(username==="" || username===null)
 {
     console.log("Cancelled");
 }
